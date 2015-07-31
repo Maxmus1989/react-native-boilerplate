@@ -22,7 +22,18 @@ var TabBarExample = React.createClass({
       selectedTab: 'redTab',
       notifCount: 0,
       presses: 0,
-      dataSource: ds.cloneWithRows(['row 1', 'row 2']),
+      dataSource: ds.cloneWithRows([
+        "Chilli Scrambled eggs",
+        "Jase",
+        "Soy Milk",
+        "Sprite",
+        "Regular Milk",
+        "Jesse Collis",
+        "Coke",
+        "Long Black",
+        "Chocolate tart",
+        "Bacon and cheese tart"
+      ]),
     };
   },
 
